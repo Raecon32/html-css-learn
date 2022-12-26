@@ -1,23 +1,62 @@
 body {
-    margin-top: -2.5%;
-    margin-left: 10%;
-    margin-right: 10%;
-    width: 80%;
+    
     background-image: url("pictures/1.jpg");
     background-size: cover;
     background-attachment: fixed;
     font-family: 'Times New Roman', Times, serif;
 }
 .block {
-    background-color: rgba(237, 237, 237, 0.836);
+    margin-left: 10%;
+    margin-right: 10%;
+    width: 80%;
+    background-color: rgba(237, 237, 237, 0.937);
 }
-p, h1, h2, h3 {
+p, h1, h2, h3, table {
     margin-left: 5%;
     margin-right: 5%;
     text-align: justify;
+}
+table, tr, th, td {
+    border-collapse: collapse;
+    border: 1px solid black;
+}
+h1, h2, h3 {
+    font-family: sans-serif;
+    margin-top: 1.5em;
+}
+h1 {
+    font-size: 32pt;
 }
 .sod a{
     margin-left: 5%;
     color: black;
     text-decoration: none;
+}
+.top {
+    background-color: rgba(237, 237, 237, 0.625);
+    border: none;
+    font-size: large;
+    background-attachment: fixed;
+    margin-left: 92%;
+}
+.top a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+figure {
+    float: right;
+    margin: 0.5% 5% 0% 2.5%;
+    width: 150px;
+}
+img {
+    width: 100%;
+}
+figcaption {
+    font-size:14px;
+    font-style: italic;
+    text-align: center;
+    border:2px solid #245488;
+    padding: 5px;
+    width:136px;
+    word-break:break-all;
 }
