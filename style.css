@@ -60,3 +60,6 @@ figcaption {
     width:136px;
     word-break:break-all;
 }
+ul {
+    margin-left: 5%;
+}
